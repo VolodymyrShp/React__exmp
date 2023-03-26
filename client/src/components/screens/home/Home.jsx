@@ -4,8 +4,8 @@ function App() {
   return (
     <div>
       <header >
-        <div className={styles.header__top}>
-          <div>
+        <div className='header__top'>
+          <div className='header__top-info'>
             <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
             <a href="">ShopNow</a>
           </div>
@@ -16,14 +16,14 @@ function App() {
             </select>
           </div>
         </div>
-        <div>
-          <div>
+        <div className='header'>
+          <div className='header__menu'>
             <p>Exclusive</p>
             <div>
               <a href="">Home</a><a href="">Contact</a><a href="">About</a><a href="">Sign Up</a>
             </div>
           </div>
-          <div>
+          <div className='header__search'>
             <input type="search" />
             <div>
               <img src="wishlist.svg" alt="" />
