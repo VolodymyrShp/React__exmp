@@ -1,0 +1,436 @@
+{
+  "item": [
+    {
+      "id": 1,
+      "category": "phone",
+      "name": "Apple iPhone 12, 64GB",
+      "brand": "Apple",
+      "price": "399.00",
+      "img": "https://m.media-amazon.com/images/I/71LM+uRWjML._AC_UY327_QL65_.jpg"
+    },
+    {
+      "id": 2,
+      "category": "phone",
+      "name": "Google Pixel 6 Pro - 5G Android Phone",
+      "brand": "Google",
+      "price": "358.90",
+      "img": "https://m.media-amazon.com/images/I/51OT+HY2HBL._AC_SL1000_.jpg"
+    },
+    {
+      "id": 3,
+      "category": "phone",
+      "name": "Nokia G10 | Android 11 |",
+      "brand": "Nokia",
+      "price": "80.99",
+      "img": "https://m.media-amazon.com/images/I/71Ptb2ttfaS._AC_SL1500_.jpg"
+    },
+    {
+      "id": 4,
+      "category": "phone",
+      "name": "Samsung Galaxy A12 (32GB, 3GB) 6.5 HD+",
+      "brand": "Samsung",
+      "price": "147.99",
+      "img": "https://m.media-amazon.com/images/I/81t8kQP6OQL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 5,
+      "category": "phone",
+      "name": "Samsung Galaxy Fold 4",
+      "brand": "Samsung",
+      "price": "1650.00",
+      "img": "https://m.media-amazon.com/images/I/71Zzyu-Ol4L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 6,
+      "category": "phone",
+      "name": "Samsung Galaxy S23 Ultra Cell Phone",
+      "brand": "Samsung",
+      "price": "2099.00",
+      "img": "https://m.media-amazon.com/images/I/71Sa3dqTqzL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 7,
+      "category": "phone",
+      "name": "Apple iPhone 11 Pro Max",
+      "brand": "Apple",
+      "price": "504.00",
+      "img": "https://m.media-amazon.com/images/I/71p2mApMN0L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 8,
+      "category": "phone",
+      "name": "Apple iPhone 13 Pro Max",
+      "brand": "Apple",
+      "price": "1399.00",
+      "img": "https://m.media-amazon.com/images/I/61D84NtVgVL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 9,
+      "category": "phone",
+      "name": "Apple iPhone XR",
+      "brand": "Apple",
+      "price": "499.00",
+      "img": "https://m.media-amazon.com/images/I/41ndBTiQIyL._AC_.jpg"
+    },
+    {
+      "id": 10,
+      "category": "phone",
+      "name": "Google Pixel 7 Pro",
+      "brand": "Google",
+      "price": "1055.00",
+      "img": "https://m.media-amazon.com/images/I/71jmjOxxE3L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 11,
+      "category": "computer",
+      "name": "ASUS ROG Strix G16 (2023) Gaming Laptop",
+      "brand": "Asus",
+      "price": "1999.00",
+      "img": "https://m.media-amazon.com/images/I/71ESIC0NIvL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 12,
+      "category": "computer",
+      "name": "Acer Nitro 5 AN515-58-7583 Gaming Laptop",
+      "brand": "Acer",
+      "price": "2195.00",
+      "img": "https://m.media-amazon.com/images/I/71CHxshl1lL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 13,
+      "category": "computer",
+      "name": "MSI Summit E16 FLIP 16",
+      "brand": "MSI",
+      "price": "1249.00",
+      "img": "https://m.media-amazon.com/images/I/81FZV6yGlJL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 14,
+      "category": "computer",
+      "name": "Acer Aspire 5 A517-52-75N6 Laptop",
+      "brand": "Acer",
+      "price": "737.00",
+      "img": "https://m.media-amazon.com/images/I/710nRkDlreL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 15,
+      "category": "computer",
+      "name": "MSI Katana 15 15.6",
+      "brand": "MSI",
+      "price": "1899.00",
+      "img": "https://m.media-amazon.com/images/I/71yf9UotUkL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 16,
+      "category": "computer",
+      "name": "ASUS TUF Gaming A15 ",
+      "brand": "Asus",
+      "price": "1179.00",
+      "img": "https://m.media-amazon.com/images/I/71ROr-qsTzL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 17,
+      "category": "computer",
+      "name": "Apple 2021 MacBook Pro",
+      "brand": "Apple",
+      "price": "2499.00",
+      "img": "https://m.media-amazon.com/images/I/61Y30DpqRVL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 18,
+      "category": "computer",
+      "name": "Lenovo ThinkPad X1 Carbon Gen 10",
+      "brand": "Lenovo",
+      "price": "1787.00",
+      "img": "https://m.media-amazon.com/images/I/61nm3dwXAmL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 19,
+      "category": "computer",
+      "name": "GIGABYTE G5 KF: 15.6",
+      "brand": "Gigabyte",
+      "price": "1144.00",
+      "img": "https://m.media-amazon.com/images/I/71tgmKoXApL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 20,
+      "category": "computer",
+      "name": "Lenovo IdeaPad Gaming 3i ",
+      "brand": "Lenovo",
+      "price": "808.00",
+      "img": "https://m.media-amazon.com/images/I/7141gTSWNOL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 21,
+      "category": "Smart watch",
+      "name": "SAMSUNG Galaxy Watch 4",
+      "brand": "Samsung",
+      "price": "199.00",
+      "img": "https://m.media-amazon.com/images/I/61dh16sj5+L._AC_SL1356_.jpg"
+    },
+    {
+      "id": 22,
+      "category": "Smart watch",
+      "name": "Amazfit Bip 3 Pro Smart Watch",
+      "brand": "Amazfit",
+      "price": "69.99",
+      "img": "https://m.media-amazon.com/images/I/61IX7x2YwZL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 23,
+      "category": "Smart watch",
+      "name": "Amazfit T-Rex Pro Smart Watch",
+      "brand": "Amazfit",
+      "price": "139.00",
+      "img": "https://m.media-amazon.com/images/I/71HvekeiFkL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 24,
+      "category": "Smart watch",
+      "name": "SAMSUNG Galaxy Watch 5",
+      "brand": "Samsung",
+      "price": "279.00",
+      "img": "https://m.media-amazon.com/images/I/61s1Na3W61L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 25,
+      "category": "Smart watch",
+      "name": "Amazfit GTR 3 Pro Smart",
+      "brand": "Amazfit",
+      "price": "159.00",
+      "img": "https://m.media-amazon.com/images/I/6131owz3QFL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 26,
+      "category": "Smart watch",
+      "name": "Apple Watch Series 8",
+      "brand": "Apple",
+      "price": "1499.00",
+      "img": "https://m.media-amazon.com/images/I/71XMTLtZd5L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 27,
+      "category": "Smart watch",
+      "name": "Apple Watch Ultra",
+      "brand": "Apple",
+      "price": "799.00",
+      "img": "https://m.media-amazon.com/images/I/91v9yAPw3-L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 28,
+      "category": "Camera",
+      "name": "Canon EOS Rebel T7 ",
+      "brand": "Canon",
+      "price": "399.00",
+      "img": "https://m.media-amazon.com/images/I/71EWRyqzw0L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 29,
+      "category": "Camera",
+      "name": "Sony Alpha a6400 Mirrorless Camera ",
+      "brand": "Sony",
+      "price": "1298.00",
+      "img": "https://m.media-amazon.com/images/I/71zs+RZUggL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 30,
+      "category": "Camera",
+      "name": "Nikon D850 FX-Format ",
+      "brand": "Nikon",
+      "price": "1398.00",
+      "img": "https://m.media-amazon.com/images/I/71HJnJrxzEL._AC_SL1152_.jpg"
+    },
+    {
+      "id": 31,
+      "category": "Camera",
+      "name": "Sony a7 III (ILCEM3K/B) Full-frame Mirrorless",
+      "brand": "Sony",
+      "price": "2198.00",
+      "img": "https://m.media-amazon.com/images/I/91rQ3XfEYzL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 32,
+      "category": "Camera",
+      "name": "Fujifilm X-T4 Mirrorless Camera",
+      "brand": "Fujifilm",
+      "price": "1699.00",
+      "img": "https://m.media-amazon.com/images/I/81gMPeyvcKL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 33,
+      "category": "Camera",
+      "name": "Canon EOS R10 RF-S18-45mm",
+      "brand": "Canon",
+      "price": "999.00",
+      "img": "https://m.media-amazon.com/images/I/613MQeeJ4ML._AC_SL1500_.jpg"
+    },
+    {
+      "id": 34,
+      "category": "Camera",
+      "name": "Blackmagic Design Pocket Cinema Camera 4K ",
+      "brand": "Blackmagic",
+      "price": "1295.00",
+      "img": "https://m.media-amazon.com/images/I/71q4f6CCpZS._AC_SL1500_.jpg"
+    },
+    {
+      "id": 35,
+      "category": "Camera",
+      "name": "Fujifilm X-H2 Mirrorless Digital Camera",
+      "brand": "Fujifilm",
+      "price": "2449.00",
+      "img": "https://m.media-amazon.com/images/I/715XMcvo4yL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 36,
+      "category": "Headphones",
+      "name": "Apple EarPods Headphones with 3.5mm Plug",
+      "brand": "Apple",
+      "price": "17.00",
+      "img": "https://m.media-amazon.com/images/I/51Vb60gP5HL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 37,
+      "category": "Headphones",
+      "name": "Beats Studio3 Wireless",
+      "brand": "Beats",
+      "price": "162.00",
+      "img": "https://m.media-amazon.com/images/I/51-+O3-wFxL._AC_SL1000_.jpg"
+    },
+    {
+      "id": 38,
+      "category": "Headphones",
+      "name": "JBL Tune 125TWS True Wireless",
+      "brand": "JBL",
+      "price": "59.90",
+      "img": "https://m.media-amazon.com/images/I/51ptPn4HP9L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 39,
+      "category": "Headphones",
+      "name": "Panasonic Headphones, Lightweight Over the Ear Wired",
+      "brand": "Panasonic",
+      "price": "11.95",
+      "img": "https://m.media-amazon.com/images/I/61H1cFamj+L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 40,
+      "category": "Headphones",
+      "name": "PHILIPS H4205 On-Ear Wireless Headphones",
+      "brand": "Philips",
+      "price": "31.80",
+      "img": "https://m.media-amazon.com/images/I/71WdPCSOq+L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 41,
+      "category": "Headphones",
+      "name": "Sony ZX Series Wired On-Ear Headphones ",
+      "brand": "Sony",
+      "price": "13.42",
+      "img": "https://m.media-amazon.com/images/I/616fBoCyBDL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 42,
+      "category": "Headphones",
+      "name": "Sony WH-1000XM5 Wireless Industry Leading",
+      "brand": "Sony",
+      "price": "398.00",
+      "img": "https://m.media-amazon.com/images/I/61+btxzpfDL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 43,
+      "category": "Headphones",
+      "name": "JBL Tune 510BT: Wireless On-Ear",
+      "brand": "JBL",
+      "price": "49.50",
+      "img": "https://m.media-amazon.com/images/I/61f6S+WtUKL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 44,
+      "category": "Headphones",
+      "name": "Bose QuietComfort 45 Bluetooth Wireless",
+      "brand": "Bose",
+      "price": "329.00",
+      "img": "https://m.media-amazon.com/images/I/51JbsHSktkL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 45,
+      "category": "Headphones",
+      "name": "Sony MDR-Z7M2 Hi-Res Stereo Overhead",
+      "brand": "Sony",
+      "price": "598.00",
+      "img": "https://m.media-amazon.com/images/I/51jivNPE6TL._AC_SL1200_.jpg"
+    },
+    {
+      "id": 46,
+      "category": "Gaming",
+      "name": "Razer Viper Ultimate Lightweight Wireless Gaming Mouse",
+      "brand": "Razer",
+      "price": "67.00",
+      "img": "https://m.media-amazon.com/images/I/6157EeRHinL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 47,
+      "category": "Gaming",
+      "name": "Razer DeathAdder Essential Gaming Mouse",
+      "brand": "Razer",
+      "price": "20.99",
+      "img": "https://m.media-amazon.com/images/I/8189uwDnMkL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 48,
+      "category": "Gaming",
+      "name": "SteelSeries QcK Gaming Surface Medium Cloth",
+      "brand": "SteelSeries",
+      "price": "9.70",
+      "img": "https://m.media-amazon.com/images/I/316ltdPI+tL._AC_SL1200_.jpg"
+    },
+    {
+      "id": 49,
+      "category": "Gaming",
+      "name": "Logitech G502 HERO High Performance Wired Gaming Mouse",
+      "brand": "Logitech",
+      "price": "98.88",
+      "img": "https://m.media-amazon.com/images/I/61mpMH5TzkL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 50,
+      "category": "Gaming",
+      "name": "Razer Ornata V3 Gaming Keyboard",
+      "brand": "Razer",
+      "price": "43.99",
+      "img": "https://m.media-amazon.com/images/I/71YW8+KhOwL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 51,
+      "category": "Gaming",
+      "name": "Corsair MM300 PRO Premium Spill-Proof Cloth Gaming Mouse Pad",
+      "brand": "Corsair",
+      "price": "19.00",
+      "img": "https://m.media-amazon.com/images/I/81Aup+4zJEL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 52,
+      "category": "Gaming",
+      "name": "SteelSeries Level Up Gaming Bundle ",
+      "brand": "SteelSeries",
+      "price": "58.99",
+      "img": "https://m.media-amazon.com/images/I/81lnTOq6Q7L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 53,
+      "category": "Gaming",
+      "name": "KOORUI 24 Inch Computer Monitor -FHD 1080P Gaming Monitor 165Hz ",
+      "brand": "Koorui",
+      "price": "86.99",
+      "img": "https://m.media-amazon.com/images/I/810ZonthJyL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 54,
+      "category": "Gaming",
+      "name": "Dell 240Hz Gaming Monitor 24.5 Inch",
+      "brand": "Dell",
+      "price": "167.00",
+      "img": "https://m.media-amazon.com/images/I/71gtHdoZkOL._AC_SL1500_.jpg"
+    }
+  ]
+}
