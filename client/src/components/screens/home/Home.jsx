@@ -1,4 +1,6 @@
+import React from 'react'
 import styles from './Home.module.css'
+import SignUp from '../Sign-up/Sign-up'
 
 function App() {
   return (
@@ -52,7 +54,8 @@ function App() {
           </div>
         </div>
       </header>
-
+      <SignUp></SignUp>
+      {/*
       <main className='main'>
         <div className="container">
           <section className='categories'>
@@ -68,7 +71,9 @@ function App() {
               <ul className="categories__item"><a href="" className="categories__link">Health & Beauty</a></ul>
             </ul>
             <div className="top-widget__slider">
+      */}
               {/* Slider Placeholder */}
+      {/*        
             </div>
           </section>
           <section>
@@ -76,7 +81,9 @@ function App() {
               <div>
                 <p>Today</p>
                 <h2>Flesh Sale</h2>
+    */}
                 {/* Timer Placeholder */}
+    {/*
               </div>
               <div>
                 <button>Left arr</button>
@@ -85,7 +92,9 @@ function App() {
             </div>
             <div>
               <div>
+  */}
                 {/* Flesh sale item card func */}
+    {/*
               </div>
               <div>
                 <button>
@@ -123,7 +132,9 @@ function App() {
               <button>View All</button>
             </div>
             <div>
+*/}
               {/* Best selling products card func*/}
+    {/*          
             </div>
           </section>
           <section>
@@ -133,7 +144,9 @@ function App() {
                 <h2>Enhance Your <span>Music Experience</span> </h2>
               </div>
               <div>
+*/}
                 {/* Timer placeholder*/}
+  {/*
                 <button>Buy Now</button>
               </div>
             </div>
@@ -154,7 +167,9 @@ function App() {
             </div>
             <div>
               <div>
+*/}
                 {/* Our Product card func */}
+    {/*
               </div>
               <div>
                 <button>
@@ -169,7 +184,9 @@ function App() {
               <h2>New arrival</h2>
             </div>
             <div>
+*/}
               {/* New product card*/}
+    {/*
             </div>
             <div>
               <div><img src="Frame 701.svg" alt="" /></div>
@@ -229,6 +246,7 @@ function App() {
           © Copyright Rimel 2022. All right reserved
         </div>
       </footer>
+*/}
     </div>
   )
 }
