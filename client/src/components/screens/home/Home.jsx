@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Home.module.css'
 import SignUp from '../Sign-up/Sign-up'
+import Footer from '../Footer/Footer'
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
         </div>
       </header>
       <SignUp></SignUp>
+      <Footer></Footer>
       {/*
       <main className='main'>
         <div className="container">
