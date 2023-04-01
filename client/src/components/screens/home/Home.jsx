@@ -55,7 +55,7 @@ function App() {
 
       <main className='main'>
         <div className="container">
-          <section className='categories'>
+          <section className='categories__menu'>
             <ul className='categories__list'>
               <ul className="categories__item womanFashion"><a href="" className="categories__link">Woman’s Fashion</a><img src='DropDown.svg' className='arrow__rigth'></img></ul>
               <ul className="categories__item manFashion"><a href="" className="categories__link">Men’s Fashion</a><img src='DropDown.svg' className='arrow__rigth'></img></ul>
@@ -71,20 +71,27 @@ function App() {
               {/* Slider Placeholder */}
             </div>
           </section>
-          <section>
+          <section className='today'>
             <div>
-              <div>
-                <p>Today</p>
-                <h2>Flesh Sale</h2>
-                {/* Timer Placeholder */}
-              </div>
-              <div>
-                <button>Left arr</button>
-                <button>Rigth arr</button>
+              <div className='section__header'>
+                <div className='section__header-text'>
+                  <p>Today's</p>
+                  <h2>Flesh Sale</h2>
+                </div>
+                <div className="today__timer">
+                  <div className="timer">
+
+                  </div>
+                  {/* Timer Placeholder */}
+                </div>
+                <div className='slider__arrow'>
+                  <img className='left__arrow' src="Left Arrow.svg" alt="" />
+                  <img className='right__arrow' src="Right Arrow.svg" alt="" />
+                </div>
               </div>
             </div>
-            <div>
-              <div>
+            <div className='item'>
+              <div className='item-card'>
                 {/* Flesh sale item card func */}
               </div>
               <div>
@@ -94,72 +101,101 @@ function App() {
               </div>
             </div>
           </section>
-          <section>
-            <div>
-              <div>
+          <section className='categories'>
+            <div className='section__header'>
+              <div className='section__header-text'>
                 <p>Categories</p>
                 <h2>Browse By Categories</h2>
               </div>
-              <div>
-                <button>Left</button>
-                <button>Rigth</button>
+              <div className='slider__arrow'>
+                <img className='left__arrow' src="Left Arrow.svg" alt="" />
+                <img className='right__arrow' src="Right Arrow.svg" alt="" />
               </div>
             </div>
-            <div>
-              <div><img src="Category-CellPhone.svg" alt="" /> <a>Phone</a></div>
-              <div><img src="Category-Computer.svg" alt="" /> <a>Comuters</a></div>
-              <div><img src="Category-SmartWatch.svg" alt="" /> <a>SmartWatch</a></div>
-              <div><img src="Category-Camera.svg" alt="" /> <a>Camera</a></div>
-              <div><img src="Category-Headphone.svg" alt="" /> <a>HeadPhones</a></div>
-              <div><img src="Category-Gamepad.svg" alt="" /> <a>Gaming</a></div>
-            </div>
+            <ul className='categories__card'>
+              <li className="categories__card-item">
+                <img src="Category-CellPhone.svg" alt="" />
+                <a href="">Phone</a>
+              </li>
+              <li className="categories__card-item">
+                <img src="Category-Computer.svg" alt="" />
+                <a href="">Comuters</a>
+              </li>
+              <li className="categories__card-item">
+                <img src="Category-SmartWatch.svg" alt="" />
+                <a href="">SmartWatch</a>
+              </li>
+              <li className="categories__card-item">
+                <img src="Category-Camera.svg" alt="" />
+                <a href="">Camera</a>
+              </li>
+              <li className="categories__card-item">
+                <img src="Category-Headphone.svg" alt="" />
+                <a href="">HeadPhones</a>
+              </li>
+              <li className="categories__card-item">
+                <img src="Category-Gamepad.svg" alt="" />
+                <a href="">Gaming</a>
+              </li>
+            </ul>
           </section>
-          <section>
-            <div>
-              <div>
+          <section className='thisMonth'>
+            <div className='section__header'>
+              <div className='section__header-text'>
                 <p>This Month</p>
                 <h2>Best Selling Products</h2>
               </div>
               <button>View All</button>
             </div>
             <div>
-              {/* Best selling products card func*/}
+              <div className='item'>
+                <div className='item-card'>
+                  {/* Flesh sale item card func */}
+                </div>
+              </div>
             </div>
           </section>
-          <section>
-            <div>
-              <div>
+          <section className='banner'>
+            <div className='banner__description'>
+              <div className='banner__header'>
                 <p>Categories</p>
-                <h2>Enhance Your <span>Music Experience</span> </h2>
+                <h2>Enhance Your <br />Music Experience </h2>
               </div>
               <div>
-                {/* Timer placeholder*/}
+                <div className='timer__bottom '>
+                  {/* Timer placeholder*/}
+                </div>
                 <button>Buy Now</button>
               </div>
             </div>
-            <div>
-              <img src="Frame 694.svg" alt="" />
+            <div className='banner__img'>
+              <img src="JBL.svg" alt="" />
             </div>
           </section>
           <section>
-            <div>
-              <div>
+            <div className='section__header'>
+              <div className='section__header-text'>
                 <p>Our Products</p>
                 <h2>Explore Our Product</h2>
               </div>
-              <div>
-                <button>Left arr</button>
-                <button>Rigth arr</button>
+              <div className='slider__arrow'>
+                <img className='left__arrow' src="Left Arrow.svg" alt="" />
+                <img className='right__arrow' src="Right Arrow.svg" alt="" />
               </div>
             </div>
             <div>
-              <div>
-                {/* Our Product card func */}
-              </div>
-              <div>
-                <button>
-                  View all product
-                </button>
+              <div className='item'>
+                <div className='item-card'>
+                  {/* Flesh sale item card func */}
+                </div>
+                <div className='item-card'>
+                  {/* Flesh sale item card func */}
+                </div>
+                <div>
+                  <button>
+                    View all product
+                  </button>
+                </div>
               </div>
             </div>
           </section>
