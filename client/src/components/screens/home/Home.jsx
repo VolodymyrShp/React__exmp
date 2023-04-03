@@ -1,4 +1,7 @@
-import styles from "./Home.module.css";
+import React from 'react'
+import styles from './Home.module.css'
+import SignUp from '../Sign-up/Sign-up'
+import Footer from '../Footer/Footer'
 
 function App() {
   return (
@@ -67,7 +70,8 @@ function App() {
           </div>
         </div>
       </header>
-
+      <SignUp></SignUp>
+      <Footer></Footer>
       <main className="main">
         <div className="container">
           <section className="categories__menu">
@@ -350,6 +354,7 @@ function App() {
         </div>
         <div>© Copyright Rimel 2022. All right reserved</div>
       </footer>
+*/}
     </div>
   );
 }

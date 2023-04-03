@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins&display=swap');
+
+footer {
+    background-color: #000;
+    color: #FAFAFA;;
+    margin-top: 140px;
+    height: 440px;
+    width: 100%;
+}
+.footer-content-wrapper {
+    padding: 80px 0 60px 0;
+    display: flex;
+
+
+}
+.footer-content {
+    display: inline-block;
+    flex: 0 1 20%;
+    margin: 0 43.5px;
+}
+.content-left  {
+    margin-left: 135px;
+}
+.content-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+.bigger-title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+}
+
+.footer-content form {
+    display: flex;
+    align-items: center;
+    padding: 12px 0px 12px 16px;
+    gap: 32px;
+    width: 217px;
+    height: 48px;
+    border: 1.5px solid #FAFAFA;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+.footer-content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#send-email {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width:130px;
+    height: 24px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    outline: none;
+}
+.support {
+    margin-bottom: 16px;
+}
+.footer-content li {
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.links-container {
+    display: flex;
+
+}
+.markets {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+.google-link {
+    margin-bottom: 4px;
+}
+.social-networks {
+    margin-top: 24px;
+    width: 168px;
+}
+
+.social-networks ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.download {
+    display: flex;
+    flex-direction: column;
+    margin-right: 135px;
+
+}
+.download p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: -3px;
+    margin-bottom: 8px;
+}
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #FFFFFF;
+    margin-top: -10px;
+    
+}
+.copyright p {
+    margin-top: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
