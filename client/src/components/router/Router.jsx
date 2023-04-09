@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "../screens/home/Home";
-import SignUp from "../screens/Sign-up/Sign-up";
+import SignUp from "../screens/Autorisation/Sign-up";
 
 const Router = () => {
   return (

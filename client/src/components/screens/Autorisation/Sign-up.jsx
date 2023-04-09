@@ -1,6 +1,8 @@
-import "./Sign-up.css";
+import "./Autorisation.css";
 import Footer from "../Footer/Footer";
 import Header from "../header/header";
+import LoginForm from "./LoginForm";
+
 function SignUp() {
   return (
     <div>
@@ -13,7 +15,8 @@ function SignUp() {
           <div className="login-form">
             <h2>Create an account</h2>
             <p>Enter your details below</p>
-            <form action="#">
+            <LoginForm />
+            {/*<form action="#">
               <input type="text" name="name" id="name" placeholder="Name" />
               <input
                 type="email"
@@ -41,7 +44,7 @@ function SignUp() {
                 <p>Alpeady have account ?</p>
                 <a href="#">Log in</a>
               </div>
-            </form>
+  </form>*/}
           </div>
         </div>
       </div>
