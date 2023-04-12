@@ -3,6 +3,8 @@
 function LoginForm() {
     return (
         <>
+            <h2>Log in to Exclusive</h2>
+            <p>Enter your details below</p>
             <form action="#">
               <input
                 type="email"
@@ -16,16 +18,18 @@ function LoginForm() {
                 name="password"
                 placeholder="Password"
               />
-              <input
-                type="submit"
-                id="Login"
-                name="Login"
-                value="Log In"
-              />
-              <div className="link-wrapper">
-                <p>Alpeady have account ?</p>
-                <a href="#">Log in</a>
+              <div className="buttons-wrapper">
+                <input
+                  type="submit"
+                  id="Login"
+                  name="Login"
+                  value="Log In"
+                />
+                <div className="password-link-wrapper">
+                  <a className="forgot-password-link" href="#">Forget Password?</a>
+                </div>
               </div>
+              
             </form>
         </>
     );
