@@ -4,7 +4,13 @@ import Header from "../header/header";
 import LoginForm from "./LoginForm";
 import SignUpForm from "./SignUpForm";
 
-function SignUp() {
+function SignUp(props) {
+  let Name = props.name;
+  if (Name === "Login") {
+    Name = <LoginForm />
+  } else {
+    Name = <SignUpForm />
+  }
   return (
     <div>
       <Header />
@@ -14,7 +20,7 @@ function SignUp() {
         </div>
         <div className="login-form-container">
           <div className="login-form">
-            <SignUpForm />
+            {Name}
           </div>
         </div>
       </div>

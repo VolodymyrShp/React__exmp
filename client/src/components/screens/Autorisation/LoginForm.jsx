@@ -4,7 +4,7 @@ function LoginForm() {
     return (
         <>
             <h2>Log in to Exclusive</h2>
-            <p>Enter your details below</p>
+            <p className="login-p">Enter your details below</p>
             <form action="#">
               <input
                 type="email"

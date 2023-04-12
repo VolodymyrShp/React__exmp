@@ -5,7 +5,7 @@ function SignUpForm() {
     return(
         <>
             <h2>Create an account</h2>
-            <p>Enter your details below</p>
+            <p className="login-p">Enter your details below</p>
             <form action="#">
               <input type="text" name="name" id="name" placeholder="Name" />
               <input
@@ -31,9 +31,9 @@ function SignUpForm() {
                 Sign up with Google
               </button>
               <div className="link-wrapper">
-                <p>Alpeady have account ?</p>
-                <Link to='/login' href="">
-                   <p className="login-link-wrapper"><a href="#">Log in</a></p>
+                <p className="link-wrapper-ask">Already have account ?</p>
+                <Link to='/login' href="" className="login-link-wrapper">
+                   <a href="#">Log in</a>
                 </Link>
                
               </div>

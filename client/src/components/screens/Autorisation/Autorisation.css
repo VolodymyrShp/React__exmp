@@ -34,25 +34,37 @@
     letter-spacing: 0.04em;
     margin-bottom: 24px;
 }
-.login-form p, .login-form a, #name, #email, #password, #creation, .sign-Google {
+/*.login-form p, .login-form a, #name, #email, #password, #creation, .sign-Google {*/
+.login-p, #name, #email, #password, #creation, .sign-Google {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 48px;
-  /* padding-right: 16px;*/
+}
+.sign-Google {
+    margin-bottom: 0;
 }
 .link-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: fit-content;
+    margin-top: 48px;
 }
 .login-link-wrapper {
     margin-left: 16px;
 }
-
+ .login-link-wrapper a, .link-wrapper-ask {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
 .link-wrapper a:hover {
     font-weight: 500;
     text-decoration: underline;
