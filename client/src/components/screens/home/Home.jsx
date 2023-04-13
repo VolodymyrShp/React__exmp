@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Home.module.css'
-import SignUp from '../Sign-up/Sign-up'
+import SignUp from '../Autorisation/Sign-up'
 import Footer from '../Footer/Footer'
 import Header from '../header/header'
 
