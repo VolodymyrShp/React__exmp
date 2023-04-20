@@ -3,6 +3,8 @@ import Footer from "../Footer/Footer";
 import Header from "../header/header";
 import LoginForm from "./LoginForm";
 import SignUpForm from "./SignUpForm";
+import NotFound from "../NotFound/NotFound";
+
 
 function SignUp(props) {
   let Name = props.name;
