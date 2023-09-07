@@ -33,7 +33,6 @@
     letter-spacing: 0.04em;
     margin-bottom: 24px;
 }
-/*.login-form p, .login-form a, #name, #email, #password, #creation, .sign-Google {*/
 .login-p, #name, #email, #password, #creation, .sign-Google {
     font-family: 'Poppins';
     font-style: normal;
@@ -62,7 +61,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    
 }
 .link-wrapper a:hover {
     font-weight: 500;
@@ -106,7 +104,6 @@
 }
 .password-link-wrapper {
     display: flex;
-    
 }
 
 .forgot-password-link {
