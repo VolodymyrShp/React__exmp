@@ -1,4 +1,4 @@
-import "./Autorisation.css";
+import "./Authorization.css";
 import Footer from "../Footer/Footer";
 import Header from "../header/header";
 import LoginForm from "./LoginForm";

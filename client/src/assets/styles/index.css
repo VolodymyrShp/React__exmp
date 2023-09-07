@@ -48,7 +48,7 @@ a {
   margin-top: 35px;
   width: 890px;
   height: 325px;
-  background: grey;
+  position: relative;
 }
 .arrow__right {
   background: transparent;

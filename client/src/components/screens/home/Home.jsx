@@ -1,13 +1,21 @@
-import React from 'react'
-import styles from './Home.module.css'
-import SignUp from '../Autorisation/Sign-up'
-import Footer from '../Footer/Footer'
-import Header from '../header/header'
+import React from "react";
+import styles from "./Home.module.css";
+import SignUp from "../Authorization/Authorization";
+import Footer from "../Footer/Footer";
+import Header from "../header/header";
+import ImageSlider from "./ImageSlider";
 
 function App() {
-  return (  
+  const slides = [
+    { url: "./slides/320302230.jpg", title: "chainsaw" },
+    { url: "./slides/324869049.jpg", title: "philips" },
+    { url: "./slides/325952597.jpg", title: "refrigerator" },
+    { url: "./slides/326869349.jpg", title: "tefall" },
+    { url: "./slides/326976579.jpg", title: "promoteSales" },
+  ];
+  return (
     <div>
-      <Header/>
+      <Header />
       <main className="main">
         <div className="container">
           <section className="categories__menu">
@@ -60,7 +68,7 @@ function App() {
                 </a>
               </ul>
             </ul>
-            <div className="top-widget__slider">{/* Slider Placeholder */}</div>
+            <ImageSlider slides={slides} />
           </section>
           <section className="today">
             <div>
@@ -242,7 +250,7 @@ function App() {
           </section>
         </div>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
